@@ -12,12 +12,38 @@
         <img class="pipe" src="imagem/pipe.png" alt="cano">
         <img class="cloud" src="imagem/clouds.png" alt="nuvens">
         <button class="start" id="startButton">Iniciar</button>
+        <label class="hard-mode-label">
+            <input type="checkbox" id="hard-mode-toggle" />
+            Modo Difícil
+          </label>
+          
     </div>
+    
+    <div class="start-screen" id="startScreen">
+        <div class="start-box">
+          <h2>🎮 Mario Game</h2>
+          <p>💡 Clique ou toque para pular os canos.</p>
+          <p>✅ Pule 5 canos e o jogo acelera!</p>
+          <p>☠️ Modo Difícil ativa canos invisíveis aleatórios.</p>
+          <button onclick="closeStartScreen()">Vamos jogar!</button>
+        </div>
+      </div>
+      
 
-    <div class="game-over"><h1> Game Over :( </h1><button onclick="restartGame()">Reiniciar</button></div>
+    <div class="game-over" id="gameOverScreen">
+        <h1>Game Over 😢</h1>
+        <p id="final-score">Pontuação: 0</p>
+        <p id="high-score-text">Recorde: 0</p>
+        <p id="new-record" style="display: none;">🎉 Novo Recorde! 🎉</p>
+        <button onclick="restartGame()">Jogar Novamente</button>
+      </div>
+      
 
     <span class="current-score">0</span>
+    <div id="speed-up-message">+Velocidade!</div>
 
     <script src="script.js"></script>
+    <button class="mobile-jump" onclick="jump()">Pular</button>
+
 </body>
 </html>
