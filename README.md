@@ -31,18 +31,17 @@ Com **aumento dinâmico de dificuldade**, **efeitos sonoros**, **modo difícil c
 
 ## 🧪 Como Executar Localmente
 
-```bash
-# Clone o repositório
+- Clone o repositório
 git clone https://github.com/anagabriellega/mario-game.git
 
-# Acesse a pasta
+- Acesse a pasta
 cd mario-game
 
-# Abra o arquivo no navegador
+- Abra o arquivo no navegador
 start index.html  # Windows
-# ou
+ou
 open index.html   # macOS
-# ou apenas arraste o arquivo para o navegador
+ou apenas arraste o arquivo para o navegador
 
 ## 🌐 Jogue Online
 
@@ -50,3 +49,5 @@ open index.html   # macOS
 
 ## Autor
 Ana Gabrielle - @anagabriellega (https://github.com/anagabriellega)
+
+
